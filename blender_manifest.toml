@@ -1,0 +1,44 @@
+schema_version = "1.0.0"
+
+id = "crowdmixer_ce"
+version = "2.0.0"
+name = "Crowd Mixer Community Edition"
+tagline = "Populate scenes with Standing, Flow Curve, and Stadium crowds"
+maintainer = "nava lab <navalab2022@gmail.com>"
+type = "add-on"
+
+# Optional link to documentation, support, source files, etc
+website = "https://navalab-studio.com/ProductsPage/crowd-mixer-doc.html"
+
+# Tags from the official list: https://docs.blender.org/manual/en/dev/advanced/extensions/tags.html
+tags = ["Geometry Nodes", "Animation", "Object"]
+
+blender_version_min = "4.3.0"
+
+# License conforming to https://spdx.org/licenses/ (use "SPDX:" prefix)
+# Everything in this extension package is GPL-3.0-or-later (see
+# LICENSE-CODE). The separately distributed CrowdMixer_Asset character
+# library (referenced via the addon's "Asset Path" preference, not bundled
+# here) has its own custom content license — see LICENSE-ASSETS.
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+copyright = [
+  "2026 nava lab",
+]
+
+# This add-on only reads/writes files under its own installed folder
+# (CMX_Data, CMX_Preset) to save user presets and crowd list state, and does
+# not access any other location on disk or perform any network requests.
+[permissions]
+files = "Save and load user presets and crowd configurations"
+
+[build]
+paths_exclude_pattern = [
+  "__pycache__/",
+  "/.git/",
+  "/*.zip",
+  "/CMX_Data/*.before-source-type-fix",
+  "*.blend1",
+  "*.blend2",
+]

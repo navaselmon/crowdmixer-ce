@@ -1,0 +1,43 @@
+Crowd Mixer Community Edition — Asset Content License
+
+Copyright (c) 2026 nava lab. All rights reserved except as expressly
+granted below.
+
+This license applies to the CrowdMixer character/environment asset
+library ("CrowdMixer_Asset"): 3D character meshes, rigs, textures,
+animation source files, pose libraries, and preset environments, found
+under:
+
+  CMX-Single-Mesh/, CMX-Source/, Object_Preset_Crowd/, Animation/
+
+This asset library is distributed separately from the CrowdMixer
+extension and is not part of the package submitted to
+extensions.blender.org. The extension itself only stores a path to a
+local copy of this library (see the addon's "Asset Path" preference) and
+does not bundle or redistribute it. This license does NOT apply to the
+add-on's Python source code or the small UI/preset assets bundled inside
+the extension itself (icons, shape-key preview images, preset
+thumbnails, geometry node templates), which are licensed under the GNU
+General Public License v3 or later as part of the extension (see
+LICENSE-CODE).
+
+Permitted uses
+--------------
+- Using this content, unmodified or modified, within your own Blender
+  projects, scenes, and output (stills, animations, real-time or
+  interactive productions), including commercial productions.
+- Modifying this content for your own use as part of a Blender project.
+
+Not permitted
+--------------
+- Redistributing, reselling, sublicensing, or repackaging the raw asset
+  files, or a substantially unmodified derivative of them, as a standalone
+  product, asset pack, add-on, or template — whether for free or for a fee.
+- Extracting the assets for use outside of a Blender project (e.g. as a
+  standalone character/environment asset pack for another engine or tool).
+- Removing or altering this notice when redistributing the extension
+  itself in a form that still contains this content.
+
+All rights not expressly granted above are reserved by nava lab. For
+licensing enquiries beyond the scope of this notice, contact
+navalab2022@gmail.com.
